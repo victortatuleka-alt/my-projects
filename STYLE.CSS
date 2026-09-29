@@ -84,7 +84,7 @@ button:active{
 }
 .zero{
     grid-column:span 2;
-    width: 150px;
+    width: 151px;
 }
 .equals{
     grid-column: 4;
