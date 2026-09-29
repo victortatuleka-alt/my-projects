@@ -33,6 +33,7 @@ button{
     width: 400px;
     padding: 25px;
     height: 680px;
+    cursor:pointer;
     
 }
 #display{
@@ -67,7 +68,8 @@ button:active{
     background-color: lightgrey;
 }
 .operator{
-    background-color: rgb(245, 141, 4);
+   background-color: rgb(230, 122, 8);
+    font-size:25px;
 }
 .operator:hover{
     background-color: rgb(184, 156, 103);
@@ -87,6 +89,7 @@ button:active{
 .equals{
     grid-column: 4;
     background-color: rgb(230, 122, 8);
+    font-size:25px;
 }
 .equals:hover{
     background-color: rgb(184, 156, 103);
