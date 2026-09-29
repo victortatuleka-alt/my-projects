@@ -1,59 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><link rel="stylesheet" href="INDEX.CSS">
+<head><link rel="stylesheet" href="STYLE.CSS">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VICTOR DANIEL'S CALCULATOR</title>
+    <title>MODERN WEB CALCULATOR INTERFACE DESIGN</title>
 </head>
 <body>
-    <H1>CALCULATOR LAYOUT</H1>
     <div id="calculator">
-    <div class="shape">
-            <div>
-            <input type="text" placeholder="0" id="display">
-        </div><br>
-        <div>
-            <button class="function">sin</button>
-              <button class="function">cos</button>
-                <button class="function">tan</button>
-                <button class="function">log</button>
-                </div>
-                <div>
-                <button class="function">%</button>
-                <button class="function">()</button>
-                <button class="function">del</button>
-                <button class="function">ac</button>
-                </div>
-                <div>
-                <button class="value">1</button>
-                <button class="value">2</button>
-                <button class="value">3</button>
-                <button class="operator">/</button>
-                </div>
-                <div>
-                <button class="value">4</button>
-                <button class="value">5</button>
-                <button class="value">6</button>
-                <button class="operator">*</button>
-                </div>
-                <div>
-                <button class="value">7</button>
-                <button class="value">8</button>
-                <button class="value">9</button>
-                <button class="operator">-</button>
-                </div>
-                <div>
-                <button class="value">00</button>
-                <button class="value">0</button>
-                <button class="value">.</button>
-                <button class="operator">+</button>
-                </div>
-                <div>
-                <button class="function">e</button>
-                <button class="function">+/-</button>
-                <button  class="function">C</button>
-                <button class="operator">=</button>
-                </div>
-
+        <input id="display" placeholder="0"readonly>
+        <div id="keys">
+            
+            <button onclick="appendtodisplay('AC')" class="ac">AC</button>
+            <button onclick="appendtodisplay('00')">00</button>
+            <button onclick="appendtodisplay('%')">%</button>
+            <button onclick="appendtodisplay('÷')" class="operator">÷</button>
+            <button onclick="appendtodisplay('7')">7</button>
+            <button onclick="appendtodisplay('8')" >8</button>
+            <button onclick="appendtodisplay('9')">9</button>
+            <button onclick="appendtodisplay('×')" class="operator">×</button>
+            <button onclick="appendtodisplay('4')">4</button>
+            <button onclick="appendtodisplay('5')">5</button>
+            <button onclick="appendtodisplay('6')">6</button>
+            <button onclick="appendtodisplay('-')" class="operator">-</button>
+            <button onclick="appendtodisplay('1')">1</button>
+            <button onclick="appendtodisplay('2')">2</button>
+            <button onclick="appendtodisplay('3')">3</button>
+            <button onclick="appendtodisplay('+')" class="operator">+</button>
+            <button onclick="appendtodisplay('0')" class="zero">0</button>
+            <button onclick="appendtodisplay('.')">.</button>
+            <button onclick="appendtodisplay('=')" class="equals">=</button>
+            
+</div>
+ </div>
+    
 </body>
 </html>
